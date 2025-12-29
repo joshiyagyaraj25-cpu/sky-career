@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fc;
+}
+
+.top {
+  background: #0a3cff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0a3cff;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 180px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.video {
+  max-width: 800px;
+  margin: auto;
+  aspect-ratio: 16/9;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.warning {
+  color: red;
+  margin-top: 10px;
+}
+
+footer {
+  background: #0a3cff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
